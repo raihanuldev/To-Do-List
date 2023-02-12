@@ -20,7 +20,7 @@ document.getElementById("input-btn").addEventListener("click", function () {
   `;
 
 
-  
+
   parent.appendChild(tr);
   document.getElementById("input-value").value = "";
 
