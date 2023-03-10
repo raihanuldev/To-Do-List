@@ -12,7 +12,7 @@ document.getElementById("input-btn").addEventListener("click", function () {
     <td>${count}</td>
     <td>${myInputValue}</td>
     <td>
-    <button class='btn btn-primary deletebtn'><i class="fa-regular fa-trash-can-arrow-up"></i></button>
+    <button class='btn btn-outline-info deletebtn'>X</button>
     </td>
 
   
