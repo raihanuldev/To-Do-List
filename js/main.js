@@ -12,8 +12,7 @@ document.getElementById("input-btn").addEventListener("click", function () {
     <td>${count}</td>
     <td>${myInputValue}</td>
     <td>
-    <button class='btn btn-danger deletebtn'>Delete</button>
-    <button class='btn btn-primary'>Done</button>
+    <button class='btn btn-primary deletebtn'><i class="fa-regular fa-trash-can-arrow-up"></i></button>
     </td>
 
   
@@ -30,22 +29,3 @@ document.getElementById("input-btn").addEventListener("click", function () {
     });
   }
 });
-
-
-
-// // clear All Button
-
-
-// document.getElementById("clear-btn").addEventListener("click", function (e) {
-//   // console.log(e.target.parentNode);
-//   const listContainer= document.getElementById('content-container')
-//   console.log(listContainer);
-//   listContainer.classList.add();
-// });
-
-
-// // help center button 
-// document.getElementById('help-btn').addEventListener('click', function(){
-//     window.open('https://github.com/UniqueCoderRihan');
-// })
-// done. ToDOLists
