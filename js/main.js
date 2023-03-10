@@ -31,4 +31,21 @@ document.getElementById("input-btn").addEventListener("click", function () {
   }
 });
 
+
+
+// // clear All Button
+
+
+// document.getElementById("clear-btn").addEventListener("click", function (e) {
+//   // console.log(e.target.parentNode);
+//   const listContainer= document.getElementById('content-container')
+//   console.log(listContainer);
+//   listContainer.classList.add();
+// });
+
+
+// // help center button 
+// document.getElementById('help-btn').addEventListener('click', function(){
+//     window.open('https://github.com/UniqueCoderRihan');
+// })
 // done. ToDOLists
